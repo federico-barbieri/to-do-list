@@ -70,7 +70,11 @@ if(item.classList[0] === 'complete-btn'){
 
 
 // array with random kid stuff
-let kidActivity = ['can you help me with the homework?', 'I spilled food on the floor', 'Can I use your phone?'];
+let kidActivity = ['can you help me with the homework?', 'I spilled food on the floor', 'Can I use your phone?',
+                    'How many legs does a cricket have?', 'I ate all the ketchup', '*glass breaking noises in the other room*',
+                    'How many books exist?', 'My pants are dirty on the inside', 'Can we have 17 dogs?', 
+                  'Look, I can fit 8 t-shirts at the same time', 'what is sex?', 'Can you talk with turtles?',
+                  'I drew us on the wall', 'Can you jump more than me?', 'I have invented a new color'];
 
 function randomKidActivity () {
   let randomNum = Math.floor(Math.random() * kidActivity.length);
